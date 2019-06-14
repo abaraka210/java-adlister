@@ -3,6 +3,7 @@
 <html>
 <head>
     <title><%= "some title" %></title>
+    <%@ include file="/login.jsp" %>
 </head>
 <body>
     <c:if test="true">
